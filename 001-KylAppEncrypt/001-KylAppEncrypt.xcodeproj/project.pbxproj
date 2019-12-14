@@ -17,6 +17,7 @@
 		18F01FE923A4D7340048B1E7 /* _01_KylAppEncryptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F01FE823A4D7340048B1E7 /* _01_KylAppEncryptTests.m */; };
 		18F01FF423A4D7340048B1E7 /* _01_KylAppEncryptUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F01FF323A4D7340048B1E7 /* _01_KylAppEncryptUITests.m */; };
 		18F0200423A4D7550048B1E7 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0200223A4D7550048B1E7 /* NSString+Hash.m */; };
+		18F0200823A4D99D0048B1E7 /* KEncryptionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0200723A4D99D0048B1E7 /* KEncryptionTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		18F01FF523A4D7340048B1E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F0200223A4D7550048B1E7 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Hash.m"; path = "../../../001-KEncryDemo/001-KEncryDemo/extension/NSString+Hash.m"; sourceTree = "<group>"; };
 		18F0200323A4D7550048B1E7 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Hash.h"; path = "../../../001-KEncryDemo/001-KEncryDemo/extension/NSString+Hash.h"; sourceTree = "<group>"; };
+		18F0200623A4D99D0048B1E7 /* KEncryptionTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEncryptionTool.h; sourceTree = "<group>"; };
+		18F0200723A4D99D0048B1E7 /* KEncryptionTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEncryptionTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,7 @@
 		18F01FCB23A4D7330048B1E7 /* 001-KylAppEncrypt */ = {
 			isa = PBXGroup;
 			children = (
+				18F0200523A4D97D0048B1E7 /* tools */,
 				18F0200123A4D73E0048B1E7 /* extension */,
 				18F01FCC23A4D7330048B1E7 /* AppDelegate.h */,
 				18F01FCD23A4D7330048B1E7 /* AppDelegate.m */,
@@ -148,6 +152,15 @@
 				18F0200223A4D7550048B1E7 /* NSString+Hash.m */,
 			);
 			path = extension;
+			sourceTree = "<group>";
+		};
+		18F0200523A4D97D0048B1E7 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				18F0200623A4D99D0048B1E7 /* KEncryptionTool.h */,
+				18F0200723A4D99D0048B1E7 /* KEncryptionTool.m */,
+			);
+			path = tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F0200823A4D99D0048B1E7 /* KEncryptionTool.m in Sources */,
 				18F01FD423A4D7330048B1E7 /* ViewController.m in Sources */,
 				18F01FCE23A4D7330048B1E7 /* AppDelegate.m in Sources */,
 				18F01FDF23A4D7340048B1E7 /* main.m in Sources */,
