@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F01FCE23A4D7330048B1E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F01FCD23A4D7330048B1E7 /* AppDelegate.m */; };
+		18F01FD123A4D7330048B1E7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F01FD023A4D7330048B1E7 /* SceneDelegate.m */; };
+		18F01FD423A4D7330048B1E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F01FD323A4D7330048B1E7 /* ViewController.m */; };
+		18F01FD723A4D7330048B1E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F01FD523A4D7330048B1E7 /* Main.storyboard */; };
+		18F01FD923A4D7340048B1E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F01FD823A4D7340048B1E7 /* Assets.xcassets */; };
+		18F01FDC23A4D7340048B1E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F01FDA23A4D7340048B1E7 /* LaunchScreen.storyboard */; };
+		18F01FDF23A4D7340048B1E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F01FDE23A4D7340048B1E7 /* main.m */; };
+		18F01FE923A4D7340048B1E7 /* _01_KylAppEncryptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F01FE823A4D7340048B1E7 /* _01_KylAppEncryptTests.m */; };
+		18F01FF423A4D7340048B1E7 /* _01_KylAppEncryptUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F01FF323A4D7340048B1E7 /* _01_KylAppEncryptUITests.m */; };
+		18F0200423A4D7550048B1E7 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F0200223A4D7550048B1E7 /* NSString+Hash.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F01FE523A4D7340048B1E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F01FC123A4D7330048B1E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F01FC823A4D7330048B1E7;
+			remoteInfo = "001-KylAppEncrypt";
+		};
+		18F01FF023A4D7340048B1E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F01FC123A4D7330048B1E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F01FC823A4D7330048B1E7;
+			remoteInfo = "001-KylAppEncrypt";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18F01FC923A4D7330048B1E7 /* 001-KylAppEncrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "001-KylAppEncrypt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F01FCC23A4D7330048B1E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18F01FCD23A4D7330048B1E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18F01FCF23A4D7330048B1E7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		18F01FD023A4D7330048B1E7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		18F01FD223A4D7330048B1E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18F01FD323A4D7330048B1E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18F01FD623A4D7330048B1E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F01FD823A4D7340048B1E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F01FDB23A4D7340048B1E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F01FDD23A4D7340048B1E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F01FDE23A4D7340048B1E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18F01FE423A4D7340048B1E7 /* 001-KylAppEncryptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "001-KylAppEncryptTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F01FE823A4D7340048B1E7 /* _01_KylAppEncryptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _01_KylAppEncryptTests.m; sourceTree = "<group>"; };
+		18F01FEA23A4D7340048B1E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F01FEF23A4D7340048B1E7 /* 001-KylAppEncryptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "001-KylAppEncryptUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F01FF323A4D7340048B1E7 /* _01_KylAppEncryptUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _01_KylAppEncryptUITests.m; sourceTree = "<group>"; };
+		18F01FF523A4D7340048B1E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F0200223A4D7550048B1E7 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Hash.m"; path = "../../../001-KEncryDemo/001-KEncryDemo/extension/NSString+Hash.m"; sourceTree = "<group>"; };
+		18F0200323A4D7550048B1E7 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Hash.h"; path = "../../../001-KEncryDemo/001-KEncryDemo/extension/NSString+Hash.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F01FC623A4D7330048B1E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F01FE123A4D7340048B1E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F01FEC23A4D7340048B1E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F01FC023A4D7330048B1E7 = {
+			isa = PBXGroup;
+			children = (
+				18F01FCB23A4D7330048B1E7 /* 001-KylAppEncrypt */,
+				18F01FE723A4D7340048B1E7 /* 001-KylAppEncryptTests */,
+				18F01FF223A4D7340048B1E7 /* 001-KylAppEncryptUITests */,
+				18F01FCA23A4D7330048B1E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F01FCA23A4D7330048B1E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F01FC923A4D7330048B1E7 /* 001-KylAppEncrypt.app */,
+				18F01FE423A4D7340048B1E7 /* 001-KylAppEncryptTests.xctest */,
+				18F01FEF23A4D7340048B1E7 /* 001-KylAppEncryptUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F01FCB23A4D7330048B1E7 /* 001-KylAppEncrypt */ = {
+			isa = PBXGroup;
+			children = (
+				18F0200123A4D73E0048B1E7 /* extension */,
+				18F01FCC23A4D7330048B1E7 /* AppDelegate.h */,
+				18F01FCD23A4D7330048B1E7 /* AppDelegate.m */,
+				18F01FCF23A4D7330048B1E7 /* SceneDelegate.h */,
+				18F01FD023A4D7330048B1E7 /* SceneDelegate.m */,
+				18F01FD223A4D7330048B1E7 /* ViewController.h */,
+				18F01FD323A4D7330048B1E7 /* ViewController.m */,
+				18F01FD523A4D7330048B1E7 /* Main.storyboard */,
+				18F01FD823A4D7340048B1E7 /* Assets.xcassets */,
+				18F01FDA23A4D7340048B1E7 /* LaunchScreen.storyboard */,
+				18F01FDD23A4D7340048B1E7 /* Info.plist */,
+				18F01FDE23A4D7340048B1E7 /* main.m */,
+			);
+			path = "001-KylAppEncrypt";
+			sourceTree = "<group>";
+		};
+		18F01FE723A4D7340048B1E7 /* 001-KylAppEncryptTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F01FE823A4D7340048B1E7 /* _01_KylAppEncryptTests.m */,
+				18F01FEA23A4D7340048B1E7 /* Info.plist */,
+			);
+			path = "001-KylAppEncryptTests";
+			sourceTree = "<group>";
+		};
+		18F01FF223A4D7340048B1E7 /* 001-KylAppEncryptUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F01FF323A4D7340048B1E7 /* _01_KylAppEncryptUITests.m */,
+				18F01FF523A4D7340048B1E7 /* Info.plist */,
+			);
+			path = "001-KylAppEncryptUITests";
+			sourceTree = "<group>";
+		};
+		18F0200123A4D73E0048B1E7 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				18F0200323A4D7550048B1E7 /* NSString+Hash.h */,
+				18F0200223A4D7550048B1E7 /* NSString+Hash.m */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F01FC823A4D7330048B1E7 /* 001-KylAppEncrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F01FF823A4D7340048B1E7 /* Build configuration list for PBXNativeTarget "001-KylAppEncrypt" */;
+			buildPhases = (
+				18F01FC523A4D7330048B1E7 /* Sources */,
+				18F01FC623A4D7330048B1E7 /* Frameworks */,
+				18F01FC723A4D7330048B1E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "001-KylAppEncrypt";
+			productName = "001-KylAppEncrypt";
+			productReference = 18F01FC923A4D7330048B1E7 /* 001-KylAppEncrypt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F01FE323A4D7340048B1E7 /* 001-KylAppEncryptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F01FFB23A4D7340048B1E7 /* Build configuration list for PBXNativeTarget "001-KylAppEncryptTests" */;
+			buildPhases = (
+				18F01FE023A4D7340048B1E7 /* Sources */,
+				18F01FE123A4D7340048B1E7 /* Frameworks */,
+				18F01FE223A4D7340048B1E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F01FE623A4D7340048B1E7 /* PBXTargetDependency */,
+			);
+			name = "001-KylAppEncryptTests";
+			productName = "001-KylAppEncryptTests";
+			productReference = 18F01FE423A4D7340048B1E7 /* 001-KylAppEncryptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18F01FEE23A4D7340048B1E7 /* 001-KylAppEncryptUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F01FFE23A4D7340048B1E7 /* Build configuration list for PBXNativeTarget "001-KylAppEncryptUITests" */;
+			buildPhases = (
+				18F01FEB23A4D7340048B1E7 /* Sources */,
+				18F01FEC23A4D7340048B1E7 /* Frameworks */,
+				18F01FED23A4D7340048B1E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F01FF123A4D7340048B1E7 /* PBXTargetDependency */,
+			);
+			name = "001-KylAppEncryptUITests";
+			productName = "001-KylAppEncryptUITests";
+			productReference = 18F01FEF23A4D7340048B1E7 /* 001-KylAppEncryptUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F01FC123A4D7330048B1E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18F01FC823A4D7330048B1E7 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					18F01FE323A4D7340048B1E7 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 18F01FC823A4D7330048B1E7;
+					};
+					18F01FEE23A4D7340048B1E7 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 18F01FC823A4D7330048B1E7;
+					};
+				};
+			};
+			buildConfigurationList = 18F01FC423A4D7330048B1E7 /* Build configuration list for PBXProject "001-KylAppEncrypt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F01FC023A4D7330048B1E7;
+			productRefGroup = 18F01FCA23A4D7330048B1E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F01FC823A4D7330048B1E7 /* 001-KylAppEncrypt */,
+				18F01FE323A4D7340048B1E7 /* 001-KylAppEncryptTests */,
+				18F01FEE23A4D7340048B1E7 /* 001-KylAppEncryptUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F01FC723A4D7330048B1E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F01FDC23A4D7340048B1E7 /* LaunchScreen.storyboard in Resources */,
+				18F01FD923A4D7340048B1E7 /* Assets.xcassets in Resources */,
+				18F01FD723A4D7330048B1E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F01FE223A4D7340048B1E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F01FED23A4D7340048B1E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F01FC523A4D7330048B1E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F01FD423A4D7330048B1E7 /* ViewController.m in Sources */,
+				18F01FCE23A4D7330048B1E7 /* AppDelegate.m in Sources */,
+				18F01FDF23A4D7340048B1E7 /* main.m in Sources */,
+				18F0200423A4D7550048B1E7 /* NSString+Hash.m in Sources */,
+				18F01FD123A4D7330048B1E7 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F01FE023A4D7340048B1E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F01FE923A4D7340048B1E7 /* _01_KylAppEncryptTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F01FEB23A4D7340048B1E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F01FF423A4D7340048B1E7 /* _01_KylAppEncryptUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F01FE623A4D7340048B1E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F01FC823A4D7330048B1E7 /* 001-KylAppEncrypt */;
+			targetProxy = 18F01FE523A4D7340048B1E7 /* PBXContainerItemProxy */;
+		};
+		18F01FF123A4D7340048B1E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F01FC823A4D7330048B1E7 /* 001-KylAppEncrypt */;
+			targetProxy = 18F01FF023A4D7340048B1E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F01FD523A4D7330048B1E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F01FD623A4D7330048B1E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F01FDA23A4D7340048B1E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F01FDB23A4D7340048B1E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F01FF623A4D7340048B1E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18F01FF723A4D7340048B1E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F01FF923A4D7340048B1E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E695D9MPGR;
+				INFOPLIST_FILE = "001-KylAppEncrypt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.-01-KylAppEncrypt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F01FFA23A4D7340048B1E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E695D9MPGR;
+				INFOPLIST_FILE = "001-KylAppEncrypt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.-01-KylAppEncrypt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18F01FFC23A4D7340048B1E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E695D9MPGR;
+				INFOPLIST_FILE = "001-KylAppEncryptTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.-01-KylAppEncryptTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/001-KylAppEncrypt.app/001-KylAppEncrypt";
+			};
+			name = Debug;
+		};
+		18F01FFD23A4D7340048B1E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E695D9MPGR;
+				INFOPLIST_FILE = "001-KylAppEncryptTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.-01-KylAppEncryptTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/001-KylAppEncrypt.app/001-KylAppEncrypt";
+			};
+			name = Release;
+		};
+		18F01FFF23A4D7340048B1E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E695D9MPGR;
+				INFOPLIST_FILE = "001-KylAppEncryptUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.-01-KylAppEncryptUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "001-KylAppEncrypt";
+			};
+			name = Debug;
+		};
+		18F0200023A4D7340048B1E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E695D9MPGR;
+				INFOPLIST_FILE = "001-KylAppEncryptUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.-01-KylAppEncryptUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "001-KylAppEncrypt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F01FC423A4D7330048B1E7 /* Build configuration list for PBXProject "001-KylAppEncrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F01FF623A4D7340048B1E7 /* Debug */,
+				18F01FF723A4D7340048B1E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F01FF823A4D7340048B1E7 /* Build configuration list for PBXNativeTarget "001-KylAppEncrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F01FF923A4D7340048B1E7 /* Debug */,
+				18F01FFA23A4D7340048B1E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F01FFB23A4D7340048B1E7 /* Build configuration list for PBXNativeTarget "001-KylAppEncryptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F01FFC23A4D7340048B1E7 /* Debug */,
+				18F01FFD23A4D7340048B1E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F01FFE23A4D7340048B1E7 /* Build configuration list for PBXNativeTarget "001-KylAppEncryptUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F01FFF23A4D7340048B1E7 /* Debug */,
+				18F0200023A4D7340048B1E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F01FC123A4D7330048B1E7 /* Project object */;
+}

@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F01F9123A4D4600048B1E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F01F9023A4D4600048B1E7 /* AppDelegate.m */; };
+		18F01F9323A4D4610048B1E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F01F9223A4D4610048B1E7 /* Assets.xcassets */; };
+		18F01F9623A4D4610048B1E7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F01F9423A4D4610048B1E7 /* MainMenu.xib */; };
+		18F01F9923A4D4610048B1E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F01F9823A4D4610048B1E7 /* main.m */; };
+		18F01FA423A4D4620048B1E7 /* _01_KEncryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F01FA323A4D4620048B1E7 /* _01_KEncryDemoTests.m */; };
+		18F01FAF23A4D4620048B1E7 /* _01_KEncryDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F01FAE23A4D4620048B1E7 /* _01_KEncryDemoUITests.m */; };
+		18F01FBF23A4D4B00048B1E7 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F01FBE23A4D4B00048B1E7 /* NSString+Hash.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F01FA023A4D4610048B1E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F01F8423A4D4600048B1E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F01F8B23A4D4600048B1E7;
+			remoteInfo = "001-KEncryDemo";
+		};
+		18F01FAB23A4D4620048B1E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F01F8423A4D4600048B1E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F01F8B23A4D4600048B1E7;
+			remoteInfo = "001-KEncryDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18F01F8C23A4D4600048B1E7 /* 001-KEncryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "001-KEncryDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F01F8F23A4D4600048B1E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18F01F9023A4D4600048B1E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18F01F9223A4D4610048B1E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F01F9523A4D4610048B1E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		18F01F9723A4D4610048B1E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F01F9823A4D4610048B1E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18F01F9A23A4D4610048B1E7 /* _01_KEncryDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _01_KEncryDemo.entitlements; sourceTree = "<group>"; };
+		18F01F9F23A4D4610048B1E7 /* 001-KEncryDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "001-KEncryDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F01FA323A4D4620048B1E7 /* _01_KEncryDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _01_KEncryDemoTests.m; sourceTree = "<group>"; };
+		18F01FA523A4D4620048B1E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F01FAA23A4D4620048B1E7 /* 001-KEncryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "001-KEncryDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F01FAE23A4D4620048B1E7 /* _01_KEncryDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _01_KEncryDemoUITests.m; sourceTree = "<group>"; };
+		18F01FB023A4D4620048B1E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F01FBD23A4D4B00048B1E7 /* NSString+Hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		18F01FBE23A4D4B00048B1E7 /* NSString+Hash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F01F8923A4D4600048B1E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F01F9C23A4D4610048B1E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F01FA723A4D4620048B1E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F01F8323A4D4600048B1E7 = {
+			isa = PBXGroup;
+			children = (
+				18F01F8E23A4D4600048B1E7 /* 001-KEncryDemo */,
+				18F01FA223A4D4620048B1E7 /* 001-KEncryDemoTests */,
+				18F01FAD23A4D4620048B1E7 /* 001-KEncryDemoUITests */,
+				18F01F8D23A4D4600048B1E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F01F8D23A4D4600048B1E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F01F8C23A4D4600048B1E7 /* 001-KEncryDemo.app */,
+				18F01F9F23A4D4610048B1E7 /* 001-KEncryDemoTests.xctest */,
+				18F01FAA23A4D4620048B1E7 /* 001-KEncryDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F01F8E23A4D4600048B1E7 /* 001-KEncryDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18F01FBC23A4D4890048B1E7 /* extension */,
+				18F01F8F23A4D4600048B1E7 /* AppDelegate.h */,
+				18F01F9023A4D4600048B1E7 /* AppDelegate.m */,
+				18F01F9223A4D4610048B1E7 /* Assets.xcassets */,
+				18F01F9423A4D4610048B1E7 /* MainMenu.xib */,
+				18F01F9723A4D4610048B1E7 /* Info.plist */,
+				18F01F9823A4D4610048B1E7 /* main.m */,
+				18F01F9A23A4D4610048B1E7 /* _01_KEncryDemo.entitlements */,
+			);
+			path = "001-KEncryDemo";
+			sourceTree = "<group>";
+		};
+		18F01FA223A4D4620048B1E7 /* 001-KEncryDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F01FA323A4D4620048B1E7 /* _01_KEncryDemoTests.m */,
+				18F01FA523A4D4620048B1E7 /* Info.plist */,
+			);
+			path = "001-KEncryDemoTests";
+			sourceTree = "<group>";
+		};
+		18F01FAD23A4D4620048B1E7 /* 001-KEncryDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F01FAE23A4D4620048B1E7 /* _01_KEncryDemoUITests.m */,
+				18F01FB023A4D4620048B1E7 /* Info.plist */,
+			);
+			path = "001-KEncryDemoUITests";
+			sourceTree = "<group>";
+		};
+		18F01FBC23A4D4890048B1E7 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				18F01FBD23A4D4B00048B1E7 /* NSString+Hash.h */,
+				18F01FBE23A4D4B00048B1E7 /* NSString+Hash.m */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F01F8B23A4D4600048B1E7 /* 001-KEncryDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F01FB323A4D4620048B1E7 /* Build configuration list for PBXNativeTarget "001-KEncryDemo" */;
+			buildPhases = (
+				18F01F8823A4D4600048B1E7 /* Sources */,
+				18F01F8923A4D4600048B1E7 /* Frameworks */,
+				18F01F8A23A4D4600048B1E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "001-KEncryDemo";
+			productName = "001-KEncryDemo";
+			productReference = 18F01F8C23A4D4600048B1E7 /* 001-KEncryDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F01F9E23A4D4610048B1E7 /* 001-KEncryDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F01FB623A4D4620048B1E7 /* Build configuration list for PBXNativeTarget "001-KEncryDemoTests" */;
+			buildPhases = (
+				18F01F9B23A4D4610048B1E7 /* Sources */,
+				18F01F9C23A4D4610048B1E7 /* Frameworks */,
+				18F01F9D23A4D4610048B1E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F01FA123A4D4610048B1E7 /* PBXTargetDependency */,
+			);
+			name = "001-KEncryDemoTests";
+			productName = "001-KEncryDemoTests";
+			productReference = 18F01F9F23A4D4610048B1E7 /* 001-KEncryDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18F01FA923A4D4620048B1E7 /* 001-KEncryDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F01FB923A4D4620048B1E7 /* Build configuration list for PBXNativeTarget "001-KEncryDemoUITests" */;
+			buildPhases = (
+				18F01FA623A4D4620048B1E7 /* Sources */,
+				18F01FA723A4D4620048B1E7 /* Frameworks */,
+				18F01FA823A4D4620048B1E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F01FAC23A4D4620048B1E7 /* PBXTargetDependency */,
+			);
+			name = "001-KEncryDemoUITests";
+			productName = "001-KEncryDemoUITests";
+			productReference = 18F01FAA23A4D4620048B1E7 /* 001-KEncryDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F01F8423A4D4600048B1E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18F01F8B23A4D4600048B1E7 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					18F01F9E23A4D4610048B1E7 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 18F01F8B23A4D4600048B1E7;
+					};
+					18F01FA923A4D4620048B1E7 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 18F01F8B23A4D4600048B1E7;
+					};
+				};
+			};
+			buildConfigurationList = 18F01F8723A4D4600048B1E7 /* Build configuration list for PBXProject "001-KEncryDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F01F8323A4D4600048B1E7;
+			productRefGroup = 18F01F8D23A4D4600048B1E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F01F8B23A4D4600048B1E7 /* 001-KEncryDemo */,
+				18F01F9E23A4D4610048B1E7 /* 001-KEncryDemoTests */,
+				18F01FA923A4D4620048B1E7 /* 001-KEncryDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F01F8A23A4D4600048B1E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F01F9323A4D4610048B1E7 /* Assets.xcassets in Resources */,
+				18F01F9623A4D4610048B1E7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F01F9D23A4D4610048B1E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F01FA823A4D4620048B1E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F01F8823A4D4600048B1E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F01F9923A4D4610048B1E7 /* main.m in Sources */,
+				18F01FBF23A4D4B00048B1E7 /* NSString+Hash.m in Sources */,
+				18F01F9123A4D4600048B1E7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F01F9B23A4D4610048B1E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F01FA423A4D4620048B1E7 /* _01_KEncryDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F01FA623A4D4620048B1E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F01FAF23A4D4620048B1E7 /* _01_KEncryDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F01FA123A4D4610048B1E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F01F8B23A4D4600048B1E7 /* 001-KEncryDemo */;
+			targetProxy = 18F01FA023A4D4610048B1E7 /* PBXContainerItemProxy */;
+		};
+		18F01FAC23A4D4620048B1E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F01F8B23A4D4600048B1E7 /* 001-KEncryDemo */;
+			targetProxy = 18F01FAB23A4D4620048B1E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F01F9423A4D4610048B1E7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F01F9523A4D4610048B1E7 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F01FB123A4D4620048B1E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18F01FB223A4D4620048B1E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18F01FB423A4D4620048B1E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "001-KEncryDemo/_01_KEncryDemo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E695D9MPGR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "001-KEncryDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.-01-KEncryDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18F01FB523A4D4620048B1E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "001-KEncryDemo/_01_KEncryDemo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E695D9MPGR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "001-KEncryDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.-01-KEncryDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18F01FB723A4D4620048B1E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E695D9MPGR;
+				INFOPLIST_FILE = "001-KEncryDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.-01-KEncryDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/001-KEncryDemo.app/Contents/MacOS/001-KEncryDemo";
+			};
+			name = Debug;
+		};
+		18F01FB823A4D4620048B1E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E695D9MPGR;
+				INFOPLIST_FILE = "001-KEncryDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.-01-KEncryDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/001-KEncryDemo.app/Contents/MacOS/001-KEncryDemo";
+			};
+			name = Release;
+		};
+		18F01FBA23A4D4620048B1E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E695D9MPGR;
+				INFOPLIST_FILE = "001-KEncryDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.-01-KEncryDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "001-KEncryDemo";
+			};
+			name = Debug;
+		};
+		18F01FBB23A4D4620048B1E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E695D9MPGR;
+				INFOPLIST_FILE = "001-KEncryDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kyl.-01-KEncryDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "001-KEncryDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F01F8723A4D4600048B1E7 /* Build configuration list for PBXProject "001-KEncryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F01FB123A4D4620048B1E7 /* Debug */,
+				18F01FB223A4D4620048B1E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F01FB323A4D4620048B1E7 /* Build configuration list for PBXNativeTarget "001-KEncryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F01FB423A4D4620048B1E7 /* Debug */,
+				18F01FB523A4D4620048B1E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F01FB623A4D4620048B1E7 /* Build configuration list for PBXNativeTarget "001-KEncryDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F01FB723A4D4620048B1E7 /* Debug */,
+				18F01FB823A4D4620048B1E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F01FB923A4D4620048B1E7 /* Build configuration list for PBXNativeTarget "001-KEncryDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F01FBA23A4D4620048B1E7 /* Debug */,
+				18F01FBB23A4D4620048B1E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F01F8423A4D4600048B1E7 /* Project object */;
+}
