@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183684F923A503A0004A6558 /* KRSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 183684F823A503A0004A6558 /* KRSACryptor.m */; };
+		183684FF23A507E1004A6558 /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 183684FB23A507E1004A6558 /* SSKeychainQuery.m */; };
+		1836850023A507E1004A6558 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 183684FC23A507E1004A6558 /* SSKeychain.m */; };
+		1836850423A507F6004A6558 /* SSKeychain.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1836850223A507F6004A6558 /* SSKeychain.strings */; };
 		18F01FCE23A4D7330048B1E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F01FCD23A4D7330048B1E7 /* AppDelegate.m */; };
 		18F01FD123A4D7330048B1E7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F01FD023A4D7330048B1E7 /* SceneDelegate.m */; };
 		18F01FD423A4D7330048B1E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F01FD323A4D7330048B1E7 /* ViewController.m */; };
@@ -38,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		183684F723A503A0004A6558 /* KRSACryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRSACryptor.h; sourceTree = "<group>"; };
+		183684F823A503A0004A6558 /* KRSACryptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRSACryptor.m; sourceTree = "<group>"; };
+		183684FB23A507E1004A6558 /* SSKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychainQuery.m; sourceTree = "<group>"; };
+		183684FC23A507E1004A6558 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		183684FD23A507E1004A6558 /* SSKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychainQuery.h; sourceTree = "<group>"; };
+		183684FE23A507E1004A6558 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		1836850323A507F6004A6558 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = SSKeychain.strings; sourceTree = "<group>"; };
 		18F01FC923A4D7330048B1E7 /* 001-KylAppEncrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "001-KylAppEncrypt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F01FCC23A4D7330048B1E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18F01FCD23A4D7330048B1E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -87,6 +98,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		183684FA23A507D0004A6558 /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				1836850123A507F6004A6558 /* en.lproj */,
+				183684FE23A507E1004A6558 /* SSKeychain.h */,
+				183684FC23A507E1004A6558 /* SSKeychain.m */,
+				183684FD23A507E1004A6558 /* SSKeychainQuery.h */,
+				183684FB23A507E1004A6558 /* SSKeychainQuery.m */,
+			);
+			path = SSKeychain;
+			sourceTree = "<group>";
+		};
+		1836850123A507F6004A6558 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				1836850223A507F6004A6558 /* SSKeychain.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
 		18F01FC023A4D7330048B1E7 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +141,7 @@
 		18F01FCB23A4D7330048B1E7 /* 001-KylAppEncrypt */ = {
 			isa = PBXGroup;
 			children = (
+				183684FA23A507D0004A6558 /* SSKeychain */,
 				18F0200523A4D97D0048B1E7 /* tools */,
 				18F0200123A4D73E0048B1E7 /* extension */,
 				18F01FCC23A4D7330048B1E7 /* AppDelegate.h */,
@@ -159,6 +191,8 @@
 			children = (
 				18F0200623A4D99D0048B1E7 /* KEncryptionTool.h */,
 				18F0200723A4D99D0048B1E7 /* KEncryptionTool.m */,
+				183684F723A503A0004A6558 /* KRSACryptor.h */,
+				183684F823A503A0004A6558 /* KRSACryptor.m */,
 			);
 			path = tools;
 			sourceTree = "<group>";
@@ -266,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1836850423A507F6004A6558 /* SSKeychain.strings in Resources */,
 				18F01FDC23A4D7340048B1E7 /* LaunchScreen.storyboard in Resources */,
 				18F01FD923A4D7340048B1E7 /* Assets.xcassets in Resources */,
 				18F01FD723A4D7330048B1E7 /* Main.storyboard in Resources */,
@@ -293,9 +328,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183684F923A503A0004A6558 /* KRSACryptor.m in Sources */,
 				18F0200823A4D99D0048B1E7 /* KEncryptionTool.m in Sources */,
 				18F01FD423A4D7330048B1E7 /* ViewController.m in Sources */,
 				18F01FCE23A4D7330048B1E7 /* AppDelegate.m in Sources */,
+				183684FF23A507E1004A6558 /* SSKeychainQuery.m in Sources */,
+				1836850023A507E1004A6558 /* SSKeychain.m in Sources */,
 				18F01FDF23A4D7340048B1E7 /* main.m in Sources */,
 				18F0200423A4D7550048B1E7 /* NSString+Hash.m in Sources */,
 				18F01FD123A4D7330048B1E7 /* SceneDelegate.m in Sources */,
@@ -334,6 +372,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		1836850223A507F6004A6558 /* SSKeychain.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1836850323A507F6004A6558 /* en */,
+			);
+			name = SSKeychain.strings;
+			sourceTree = "<group>";
+		};
 		18F01FD523A4D7330048B1E7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
